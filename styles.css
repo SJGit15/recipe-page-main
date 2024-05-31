@@ -7,7 +7,6 @@ body {
     font-family:'Outfit';
     font-weight: 100;
     background-color: hsl(30, 54%, 90%);
-    margin: 80px;
 }
 
 img {
@@ -27,11 +26,21 @@ strong {
     color: hsl(30, 10%, 34%);
 }
 
-.body {
+.border {
+    border: solid thin hsl(30, 18%, 87%);
+}
+
+.recipe {
     background-color: white;
-    padding: 4%;
-    border-radius: 15px;
     position: relative;
+
+    padding: 4%;
+    width: 500px;
+    border-radius: 15px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
 }
 
 .prep {
