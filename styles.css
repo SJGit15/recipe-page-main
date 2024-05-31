@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family:'Outfit';
+    font-weight: 100;
+    background-color: hsl(30, 54%, 90%);
+    margin: 80px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1, h3 {
+    font-family: 'Young Serif';
+}
+
+h3 {
+    color: hsl(14, 45%, 36%);
+}
+
+strong {
+    color: hsl(30, 10%, 34%);
+}
+
+.body {
+    background-color: white;
+    padding: 4%;
+    border-radius: 15px;
+    position: relative;
+}
+
+.prep {
+    background-color:hsl(330, 100%, 98%);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.prep h3 {
+    font-family: 'Outfit';
+    color: hsl(332, 51%, 32%);
+    position: relative;
+    left: 10px;
+}
+
+.prep li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+#ingredients {
+    list-style-type: square;
+}
+
+#ingredients li::marker {
+    color: hsl(14, 45%, 36%)
+}
+
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 500;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.amount {
+    color: hsl(14, 45%, 36%);
+    font-weight: 500;
+}
+
+.fat {
+    border: none;
+}
+
+.attribution {
+    position: fixed;
+    margin: 0;
+}
